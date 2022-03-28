@@ -9,16 +9,13 @@ This repository is only the Front End, please check the [back repository](https:
 Steps to execute the test in watch mode:
 
 ### How To Deploy the back
-git clone https://github.com/Oss21/books-back.git
-cd books-back
-./gradlew bootRun
+- git clone https://github.com/Oss21/books-back.git
+- cd books-back
+- ./gradlew bootRun
 
-### How To Deploy the front
-
-cd books-ui-E2E
-npm ci
-npm run start:dev
-#### In other console write the next for deploy cypress
-npm i
-npm run cypress.
+### How To Deploy this repository
+- git clone https://github.com/Oss21/Test-Book-API.git
+- cd Test-Book-API
+- npm i
+- npm run cypress
 
